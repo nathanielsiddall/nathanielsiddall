@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #696969;
+    font-family: "Trebuchet MS", sans-serif;
+}
+main {
+    background: #696969 url("../img/index-hero.JPG") no-repeat center;
+    background-size: cover;
+}
+.hero-text {
+    background: rgba(204, 204, 204, 0.7);
+    padding: .1vw;
+    width: auto;
+}
+#header-menu {
+    display: none;
+}
+#footer-wrapper {
+    display: flex;
+    justify-content: center;
+}
+#m-menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 8vh;
+    width: 95%;
+    flex-shrink: 0;
+    background-color: #979797;
+    justify-self: center;
+    align-self: flex-end;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin-top: 1vh;
+}
+#m-menu-bar > a {
+    align-self: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 2vh;
+}
+#wrapper {
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    font-size: 2.5vh;
+    align-items: flex-end;
+    justify-content: center;
+    align-self: flex-end;
+}
+@media (min-width: 700px) {
+
+    #wrapper {
+        height: 78.3vh;
+    }
+    #m-menu-bar {
+        display: none;
+    }
+    #header-menu {
+        display: flex;
+        justify-content: flex-start;
+    }
+    #lg-menu-bar {
+        display: flex;
+        flex-direction: column;
+        justify-self: flex-start;
+        margin-left: 10vw;
+        margin-top: 4.5vh;
+    }
+    #lg-menu-bar > a {
+        width: auto;
+        display: flex;
+        margin-bottom: 2vh;
+        justify-content: flex-end;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+        font-size: 2vh;
+    }
+    .hero-text {
+        background: rgba(255, 255, 204, 0.7);
+        border-radius: 5px;
+        padding: 1vh;
+    }
+}

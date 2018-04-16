@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /*flex-direction: column;*/
+    /*justify-items: flex-end;*/
+    font-family: "Trebuchet MS", sans-serif;
+    border: ;
+
+}
+.link-button {
+    font-weight: bold;
+    text-decoration: none;
+
+    color: black;
+    background-color: lightgray;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-bottom: 2vh;
+    justify-content: center;
+}
+#buttons {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#lg-menu-bar {
+    display: none;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    /*width: 95%;*/
+    justify-content: center;
+    justify-self: center;
+}
+#header {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    text-align: end;
+    width: 95%;
+}
+
