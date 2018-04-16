@@ -1,0 +1,1 @@
+i think i  want to make this all one page. with long scroll.
