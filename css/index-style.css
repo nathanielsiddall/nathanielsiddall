@@ -11,9 +11,13 @@ main {
     background-size: cover;
 }
 .hero-text {
-    background: rgba(204, 204, 204, 0.7);
+    background: rgba(250, 128, 114, 0.6);
+    border-radius: 5px;
     padding: .1vw;
     width: auto;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Righteous', "Trebuchet MS", sans-serif;
 }
 #header-menu {
     display: none;
@@ -30,7 +34,7 @@ main {
     width: 100%;
     justify-content: space-evenly;
     position: fixed;
-    bottom:0px;
+    bottom: 0px;
 
 }
 #m-menu-bar > a {
@@ -41,7 +45,7 @@ main {
 }
 #wrapper {
     display: flex;
-    height: 90vh;
+    height: 91.7vh;
     width: 100%;
     font-size: 2.5vh;
     align-items: flex-end;
@@ -78,8 +82,7 @@ main {
         font-size: 2vh;
     }
     .hero-text {
-        background: rgba(255, 255, 204, 0.7);
-        border-radius: 5px;
+
         padding: 1vh;
     }
 }
