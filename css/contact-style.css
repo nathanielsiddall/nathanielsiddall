@@ -54,6 +54,8 @@ body {
     background-color: lightgray;
     width: 100%;
     justify-content: space-evenly;
+    position: fixed;
+    bottom:0px;
 
 }
 #m-menu-bar > a {
