@@ -24,24 +24,20 @@ main {
 }
 #m-menu-bar {
     display: flex;
-    flex-direction: row;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    background-color: lightgray;
+    width: 100%;
     justify-content: space-evenly;
-    height: 8vh;
-    width: 95%;
-    flex-shrink: 0;
-    background-color: #979797;
-    justify-self: center;
-    align-self: flex-end;
-    border: 3px solid black;
-    border-radius: 25px;
-    margin-top: 1vh;
+    position: fixed;
+    bottom:0px;
+
 }
 #m-menu-bar > a {
-    align-self: center;
-    font-weight: bold;
     text-decoration: none;
     color: black;
-    font-size: 2vh;
+    font-weight: bold;
+    justify-self: center;
 }
 #wrapper {
     display: flex;
