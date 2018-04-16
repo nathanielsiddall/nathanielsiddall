@@ -2,11 +2,8 @@ body {
     padding: 0;
     margin: 0;
     display: flex;
-    /*flex-direction: column;*/
-    /*justify-items: flex-end;*/
+    background-image: url("../img/circles-dark.png");
     font-family: "Trebuchet MS", sans-serif;
-
-
 }
 .link-button {
     font-weight: bold;
@@ -24,9 +21,7 @@ body {
 #buttons {
     display: flex;
     flex-direction: column;
-
 }
-
 #lg-menu-bar {
     display: none;
 }
@@ -46,6 +41,7 @@ body {
 #footer-wrapper {
     display: flex;
     flex-direction: row;
+
 }
 #m-menu-bar {
     display: flex;
@@ -56,7 +52,6 @@ body {
     justify-content: space-evenly;
     position: fixed;
     bottom:0px;
-
 }
 #m-menu-bar > a {
     text-decoration: none;
@@ -65,4 +60,56 @@ body {
     justify-self: center;
 }
 
+@media (min-width: 700px) {
+    #m-menu-bar {
+        display: none;
+    }
 
+    #lg-menu-bar {
+        display: flex;
+        flex-direction: column;
+        justify-self: flex-start;
+        margin-left: 10vw;
+        margin-top: 4.5vh;
+    }
+    #lg-menu-bar > a {
+        width: auto;
+        display: flex;
+        margin-bottom: 2vh;
+        justify-content: flex-end;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+        font-size: 2vh;
+    }
+
+    #wrapper {
+
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #header-menu {
+        width: 5vw;
+    }
+
+    #header {
+        width: 100%;
+        margin-top: 20vh;
+        text-align: center;
+        margin-right: 5vw;
+    }
+    #buttons {
+        flex-direction: row;
+    }
+    .link-button {
+        padding-right: 4vw;
+        height: 40vh;
+
+
+    }
+    .link-button:nth-child(2) {
+        /*margin-left: 10vw;*/
+
+    }
+}
