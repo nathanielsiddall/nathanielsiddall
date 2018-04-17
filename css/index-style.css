@@ -78,7 +78,7 @@ main {
         display: flex;
         flex-direction: column;
         justify-self: flex-start;
-        margin-left: 1vw;
+        margin-left: 10vw;
         margin-top: 4.5vh;
     }
 
