@@ -38,7 +38,7 @@ main {
     width: 100%;
     justify-content: space-evenly;
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
 
 }
 #m-menu-bar > a {
