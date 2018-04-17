@@ -7,17 +7,19 @@ body {
     font-family: "Trebuchet MS", sans-serif;
 }
 main {
-    background: #696969 url("../img/index-hero.JPG") no-repeat center;
+    background: #696969 url("../img/forge.JPG") no-repeat center;
     background-size: cover;
 }
 .hero-text {
-    background: rgba(250, 128, 114, 0.6);
+    /*background: rgba(250, 128, 114, 0.6);*/
     border-radius: 5px;
     padding: .1vw;
     width: auto;
     text-align: center;
     font-weight: bold;
-    font-family: 'Righteous', "Trebuchet MS", sans-serif;
+    font-family: 'Oswald', "Trebuchet MS", sans-serif;
+    font-size: 8vh;
+    color: white;
 }
 #header-menu {
     display: none;
@@ -72,13 +74,14 @@ main {
         margin-top: 4.5vh;
     }
     #lg-menu-bar > a {
+        font-family: 'Alegreya Sans SC', sans-serif;
         width: auto;
         display: flex;
         margin-bottom: 2vh;
         justify-content: flex-end;
         font-weight: bold;
         text-decoration: none;
-        color: black;
+        color: orange;
         font-size: 2vh;
     }
     .hero-text {
