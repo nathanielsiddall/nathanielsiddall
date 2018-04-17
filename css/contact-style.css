@@ -1,43 +1,55 @@
 body {
-    padding: 0;
-    margin: 0;
-    display: flex;
     background-image: url("../img/circles-dark.png");
-    font-family: "Trebuchet MS", sans-serif;
+
+    margin: 0;
+    padding: 0;
+
 }
-.link-button {
-    font-weight: bold;
-    text-decoration: none;
-    padding-left: 4vw;
-    color: white;
-    background-color: #61C3D7;
-    padding-top: 4vh;
-    padding-bottom: 4vh;
-    justify-content: center;
+
+#wrapper {
+    height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
 }
-.link-button:nth-child(2) {
-    background-color: #E0633F;
+
+
+#border {
+    width: 95%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    align-self: center;
+}
+
+#header {
+    display: flex;
+
+}
+#header h2 {
+    justify-content: flex-end;
 }
 #buttons {
     display: flex;
     flex-direction: column;
 }
-#lg-menu-bar {
-    display: none;
+.link-button {
+    width: 100%;
+    background-color: #61C3D7;
+    padding: 4vh 0;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.link-button:nth-child(2) {
+    background-color: #E0633F;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
 }
 
-#wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-self: center;
-}
-#header {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: bold;
-    text-align: end;
-    width: 95%;
-}
+
+
 #footer-wrapper {
     display: flex;
     flex-direction: row;
@@ -51,7 +63,7 @@ body {
     width: 100%;
     justify-content: space-evenly;
     position: fixed;
-    bottom:0px;
+    bottom:0;
 }
 #m-menu-bar > a {
     text-decoration: none;
@@ -60,54 +72,7 @@ body {
     justify-self: center;
 }
 
-@media (min-width: 700px) {
-    #m-menu-bar {
-        display: none;
-    }
 
-    #lg-menu-bar {
-        display: flex;
-        flex-direction: column;
-        justify-self: flex-start;
-        margin-left: 10vw;
-        margin-top: 4.5vh;
-    }
-    #lg-menu-bar > a {
-        width: auto;
-        display: flex;
-        margin-bottom: 2vh;
-        justify-content: flex-end;
-        font-weight: bold;
-        text-decoration: none;
-        color: black;
-        font-size: 2vh;
-    }
-
-    #wrapper {
-
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    #header-menu {
-        width: 5vw;
-    }
-
-    #header {
-        width: 100%;
-        margin-top: 20vh;
-        text-align: center;
-        margin-right: 5vw;
-    }
-    #buttons {
-        flex-direction: row;
-    }
-    .link-button {
-        padding-right: 4vw;
-        height: 40vh;
-    }
-    .link-button:nth-child(2) {
-        /*margin-left: 10vw;*/
-
-    }
+#header-menu {
+    display: none;
 }
