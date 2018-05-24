@@ -8,7 +8,7 @@ body {
 }
 main {
     background: #696969
-    url("../img/forge.JPG") no-repeat center;
+    url("../img/forge.jpg") no-repeat center;
 
     background-size: cover;
 }
@@ -43,7 +43,7 @@ main {
 }
 #m-menu-bar > a {
     text-decoration: none;
-    color: black;
+    color: dimgrey;
     font-weight: bold;
     justify-self: stretch;
     text-align: center;
