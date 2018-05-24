@@ -91,7 +91,10 @@ main {
         font-weight: bold;
         text-decoration: none;
         color: orange;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
         font-size: 2vh;
+
     }
 
     .hero-text {
